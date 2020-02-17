@@ -1,0 +1,7 @@
+html, body { margin: 0; height: 100%; }
+
+.back-ground {
+    /* background-color: cornflowerblue; */
+    background-image: url('../assets/franchoekbgtexture.png');
+    height: 800px;
+}
