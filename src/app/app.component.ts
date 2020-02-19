@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'porto';
+  
+  recieveMessage($event) {
+   
+    console.log("These goodies ", $event);
+  }
 }
