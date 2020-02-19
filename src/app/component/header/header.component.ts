@@ -6,14 +6,13 @@ import { Component, Output, EventEmitter } from "@angular/core";
   styleUrls: ["./header.component.css"]
 })
 export class HeaderComponent {
-  message ="this has been clicked";
+  message =" have been clicked";
 
   @Output() messageBus = new EventEmitter();
 
   menuArray = [{ name: "Home" }, { name: "About" }, { name: "Contact" }];
 
   clickHandler() {
-    // console.log('this has been clicked', this.message);
     this.messageBus.emit(this.message);
   }
 }

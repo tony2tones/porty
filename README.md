@@ -1,6 +1,12 @@
 # Porto
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
+I also got a bit side tracked when i realised that i'm not too good at using event emitters or emitting stuff around
+I found a great video that teaches you how event emitters work, very good clear and concise
+
+https://youtu.be/I317BhehZKM?t=45
+
+So this is just a sample event mitter thing using bootstrap.
 
 ## Development server
 
@@ -14,14 +20,14 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## How to get setup and running
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+first use the command 
 
-## Running end-to-end tests
+`npm install`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+wait for installation to be complete, after that enter
 
-## Further help
+`ng serve`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Take a look at the code my article and/or video to get a better understanding on whats going on.
