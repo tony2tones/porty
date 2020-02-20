@@ -12,8 +12,8 @@ export class HeaderComponent {
 
   menuArray = [{ name: "Home" }, { name: "About" }, { name: "Contact" }];
 
-  clickHandler() {
-    // console.log('this has been clicked', this.message);
+  clickHandler(i) {
+    this.message = i;
     this.messageBus.emit(this.message);
   }
 }

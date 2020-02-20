@@ -1,0 +1,14 @@
+.bg {
+  background-image: url("../../..//assets/franchoekbgtexture.png");
+  height: 800px;
+}
+.card-body {
+  padding-top: 30px;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+h1, p {
+  color: white;
+}

@@ -14,8 +14,8 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active" *ngFor="let menuItem of menuArray">
-          <a class="nav-link"  (click)="clickHandler()"
+        <li class="nav-item active" *ngFor="let menuItem of menuArray; let i of index">
+          <a class="nav-link"  (click)="clickHandler(i)"
             >{{ menuItem.name }} <span class="sr-only"> {{ menuItem.name}} </span
           ></a>
         </li>
