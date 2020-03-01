@@ -21,13 +21,13 @@ export class HeaderComponent implements OnInit{
     );
   }
 
-  // newMessage() {
-  //   this.contentService.changeMessage('new content here dawg');
-  // }
+  newMessage() {
+    this.contentService.changeMessage('new content here dawg');
+  }
   clickHandler(i) {
     this.contentService.changeMessage('new content here dawg');
 
-    // this.message = i;
-    // this.messageBus.emit(this.message);
+    this.content = i;
+    this.messageBus.emit(this.content);
   }
 }

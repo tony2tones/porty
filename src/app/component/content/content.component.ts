@@ -7,6 +7,7 @@ import { ContentService } from "src/app/services/content-service.service";
   styleUrls: ["./content.component.css"]
 })
 export class ContentComponent implements OnInit {
+  show: number = 0;
   message: string;
   title = "This is my home page homie.";
   content =
@@ -20,6 +21,19 @@ export class ContentComponent implements OnInit {
   }
 
   newMessage() {
-    this.contentService.changeMessage('new content here dawg');
+    this.contentService.changeMessage("new content here dawg");
+  }
+
+  clickHandeler() {
+    if(this.show < 3) {
+    this.show = this.show + 1;
+      console.log(this.show, " Value is");
+    }
+
+    else this.show = 0;
+  }
+
+  recieveMessage($event) {
+    console.log('this was clicked and gave me this value ', $event);
   }
 }
