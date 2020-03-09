@@ -13,8 +13,8 @@ import { AboutMeComponent } from './component/content/about-me/about-me.componen
 import { ContactComponent } from './content/contact/contact.component';
 
 const appRoutes: Routes = [
-  {path: 'home', component: HomeComponent },
-  {path: 'about', component: AboutMeComponent },
+  {path: 'Home', component: HomeComponent },
+  {path: 'About', component: AboutMeComponent }
 
 ]
 
