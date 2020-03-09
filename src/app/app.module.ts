@@ -7,6 +7,11 @@ import { ComponentComponent } from "./component/component.component";
 import { HeaderComponent } from "./component/header/header.component";
 import { ContentComponent } from "./component/content/content.component";
 import { ContentService } from "./services/content-service.service";
+import { Routes, RouterModule } from '@angular/router';
+
+const appRoutes: Routes = [
+  {path: 'content', component: ContentComponent }
+]
 
 @NgModule({
   declarations: [
@@ -15,7 +20,10 @@ import { ContentService } from "./services/content-service.service";
     HeaderComponent,
     ContentComponent
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(
+    appRoutes,
+    { enableTracing: true } // <-- debugging purposes only
+  )],
   providers: [ContentService],
   bootstrap: [AppComponent]
 })
