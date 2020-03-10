@@ -10,11 +10,12 @@ import { ContentService } from "./services/content-service.service";
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './component/content/home/home.component';
 import { AboutMeComponent } from './component/content/about-me/about-me.component';
-import { ContactComponent } from './content/contact/contact.component';
+import { ContactComponent } from './component/content/contact/contact.component';
 
 const appRoutes: Routes = [
   {path: 'Home', component: HomeComponent },
-  {path: 'About', component: AboutMeComponent }
+  {path: 'About', component: AboutMeComponent },
+  {path: 'Contact', component: ContactComponent }
 
 ]
 
@@ -25,7 +26,8 @@ const appRoutes: Routes = [
     HeaderComponent,
     ContentComponent,
     HomeComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    ContactComponent
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(
     appRoutes,
