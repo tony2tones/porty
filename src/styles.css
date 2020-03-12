@@ -5,3 +5,19 @@
     background-image: url('./assets/franchoekbgtexture.png');
     height: 800px;
   }
+
+  h1, p {
+    color:white
+}
+
+.card-body {
+    padding-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .content-container {
+    height: 40px;
+    background: transparent;
+    padding-bottom: 150px;
+  }
