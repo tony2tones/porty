@@ -12,13 +12,36 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="Home" [routerLinkActive]="">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="About" [routerLinkActive]="">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" routerLink="Contact" [routerLinkActive]="">Contact</a>
+      </li>
+    </ul>
+  <!-- </nav> -->
+
+  <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active" *ngFor="let menuItem of menuArray; let i of index">
-          <a class="nav-link"  routerLink="{{ menuItem.name }}"
-            >{{ menuItem.name }} <span class="sr-only"> {{ menuItem.name}} </span
-          ></a>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink="Home"> -->
+  <!-- <span class="sr-only"> </span -->
+  <!-- </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink="About">
+             <span class="sr-only">
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link"  routerLink="Contact">
+             <span class="sr-only">
+          </a>
         </li>
       </ul>
-  </div>
+  </div> -->
 </nav>
