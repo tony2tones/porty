@@ -1,19 +1,33 @@
-import { Component, Output, EventEmitter } from "@angular/core";
+import { Component, Output, EventEmitter, OnInit } from "@angular/core";
+import { ContentService } from 'src/app/services/content-service.service';
 
 @Component({
   selector: "app-header",
   templateUrl: "./header.component.html",
   styleUrls: ["./header.component.css"]
 })
-export class HeaderComponent {
-  message ="this has been clicked";
+export class HeaderComponent implements OnInit{
+  content ="this has been clicked";
 
   @Output() messageBus = new EventEmitter();
 
   menuArray = [{ name: "Home" }, { name: "About" }, { name: "Contact" }];
 
-  clickHandler() {
-    // console.log('this has been clicked', this.message);
-    this.messageBus.emit(this.message);
+  constructor(private contentService: ContentService) {}
+
+  ngOnInit() {
+    this.contentService.currentMessage.subscribe(
+      message => (this.content = message)
+    );
+  }
+
+  newMessage() {
+    this.contentService.changeMessage('new content here dawg');
+  }
+  clickHandler(i) {
+    this.contentService.changeMessage('new content here dawg');
+
+    this.content = i;
+    this.messageBus.emit(this.content);
   }
 }

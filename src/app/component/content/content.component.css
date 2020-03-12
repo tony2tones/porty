@@ -1,0 +1,21 @@
+.card-body {
+  padding-top: 30px;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+h1,
+p {
+  color: white;
+}
+
+.content-container {
+  height: 40px;
+  background: transparent;
+  padding-bottom: 150px;
+}
+
+.bottom-nav {
+  text-align: center;
+}
