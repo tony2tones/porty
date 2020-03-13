@@ -1,4 +1,11 @@
-.nav-item:hover {
+.nav-link:hover {
     cursor: pointer;
+    color:red;
 }
 
+.nav-link > a{ 
+    color: none;
+}
+.active {
+    color:green;
+}
