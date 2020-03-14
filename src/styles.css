@@ -6,7 +6,7 @@
     height: 800px;
   }
 
-  h1, p {
+  h1, p, a {
     color:white
 }
 
@@ -22,4 +22,7 @@
     padding-bottom: 150px;
   }
 
-
+a:hover {
+  color:grey;
+  text-decoration-line:none;
+}
