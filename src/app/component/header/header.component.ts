@@ -11,8 +11,6 @@ export class HeaderComponent implements OnInit{
 
   @Output() messageBus = new EventEmitter();
 
-  menuArray = [{ name: "Home" }, { name: "About" }, { name: "Contact" }];
-
   constructor(private contentService: ContentService) {}
 
   ngOnInit() {
