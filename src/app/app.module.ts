@@ -13,7 +13,7 @@ import { AboutMeComponent } from './component/content/about-me/about-me.componen
 import { ContactComponent } from './component/content/contact/contact.component';
 
 const appRoutes: Routes = [
-  {path: 'Home', component: HomeComponent },
+  {path: '', component: HomeComponent },
   {path: 'About', component: AboutMeComponent },
   {path: 'Contact', component: ContactComponent }
 
