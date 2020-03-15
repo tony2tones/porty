@@ -32,6 +32,6 @@ p {
     transform: translateX(-622px);
   }
   to {
-    transform: translateX(150%);
+    transform: translateX(140%);
   }
 }
