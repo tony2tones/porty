@@ -42,7 +42,7 @@ p {
   width: 350px;
 }
 
-.icon > img{
+.icon > a > img{
   text-align: center;
   padding: 10px;
   width: 90px;
