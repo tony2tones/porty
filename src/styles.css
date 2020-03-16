@@ -4,6 +4,7 @@
 .bg {
   background-image: url("./assets/franchoekbgtexture.png");
   height: 800px;
+  
 }
 
 h1,
@@ -18,7 +19,7 @@ a {
   margin: 0 auto;
   width: 90%;
 }
-.content-container {
+/* .content-container {
   position: absolute;
   left: -622px;
   height: 40px;
@@ -36,7 +37,7 @@ a {
   to {
     transform: translateX(1000px);
   }
-}
+} */
 
 a:hover {
   color: grey;
