@@ -18,12 +18,13 @@ p {
 .content-container {
   /* text-align: center; */
   position: absolute;
-  left: -622px;
+  left: -922px;
   height: 40px;
   background: transparent;
   padding-bottom: 150px;
   animation-name: drive;
   animation-duration: 3s;
+  animation-delay: 0.5s;
   animation-fill-mode: forwards;
 }
 
@@ -38,7 +39,7 @@ p {
     transform: translateX(-622px);
   }
   to {
-    transform: translateX(900px);
+    transform: translateX(1200px);
   }
 }
 
@@ -58,4 +59,5 @@ p {
 
 .bg-link {
   transform: scale(1.3);
+  padding-bottom: 42px;
 }
