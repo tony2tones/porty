@@ -11,27 +11,28 @@ p {
 }
 
 .content-container {
+  text-align: center;
   position: absolute;
-  left: -622px;
+  /* left: -622px; */
   height: 40px;
   background: transparent;
   padding-bottom: 150px;
-  animation-name: drive;
+  /* animation-name: drive;
   animation-duration: 3s;
-  animation-fill-mode: forwards;
-}
-
+  animation-fill-mode: forwards; */
+/* } */
+/* 
 .picture {
   width: 500px;
   height: auto;
   transform: scaleX(-1);
-}
+} */
 
-@keyframes drive {
+/* @keyframes drive {
   from {
     transform: translateX(-622px);
   }
   to {
     transform: translateX(140%);
-  }
+  } */
 }
