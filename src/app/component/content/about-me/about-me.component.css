@@ -55,3 +55,7 @@ p {
   width: 90px;
   height: auto;
 }
+
+.bg-link {
+  transform: scale(1.3);
+}
