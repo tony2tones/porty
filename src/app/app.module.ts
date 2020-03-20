@@ -11,6 +11,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './component/content/home/home.component';
 import { AboutMeComponent } from './component/content/about-me/about-me.component';
 import { ContactComponent } from './component/content/contact/contact.component';
+import { ParallaxDirective } from './parallax.directive';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent },
@@ -27,7 +28,8 @@ const appRoutes: Routes = [
     ContentComponent,
     HomeComponent,
     AboutMeComponent,
-    ContactComponent
+    ContactComponent,
+    ParallaxDirective
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(
     appRoutes,
