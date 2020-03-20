@@ -4,7 +4,6 @@ import { NgModule } from "@angular/core";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { HeaderComponent } from "./component/header/header.component";
-import { ContentComponent } from "./component/content/content.component";
 import { ContentService } from "./services/content-service.service";
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './component/content/home/home.component';
@@ -23,15 +22,13 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     HeaderComponent,
-    ContentComponent,
     HomeComponent,
     AboutMeComponent,
     ContactComponent,
     ParallaxDirective
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(
-    appRoutes,
-    { enableTracing: true } // <-- debugging purposes only
+    appRoutes
   )],
   providers: [ContentService],
   bootstrap: [AppComponent]
