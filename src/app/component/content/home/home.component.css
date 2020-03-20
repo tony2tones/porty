@@ -1,5 +1,40 @@
-@media only screen and (max-width: 768px) {
 
+@media only screen and (max-width: 768px) {
+  
+  .panel {
+    background-color: white;
+    width: 100%;
+    height: 500px;
+  }
+
+  /* .col-sm{
+    padding-right:5px;
+  } */
+
+  .title {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .title > h3 {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .content-logo{
+    padding-left:22px;
+  }
+
+  .icon > a > img {
+    align-items: center;
+    text-align: center;
+    /* margin-top:10px; */
+    padding-top: 45px;
+    width: 140px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 360px) {
   .panel {
     background-color: white;
     width: 100%;
@@ -8,6 +43,7 @@
 
   .title {
     text-align: center;
+    padding-top: 20px;
   }
 
   .title > h3 {
@@ -15,10 +51,8 @@
   }
 
   .icon > a > img {
-    text-align: center;
-    /* margin-top:10px; */
-    padding-top: 45px;
-    width: 140px;
+    width: 110px;
     height: auto;
   }
 }
+
