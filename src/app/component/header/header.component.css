@@ -9,3 +9,8 @@
 .active {
     color:rgb(167, 224, 228);
 }
+
+.logo > img{
+    width:40px;
+    height: auto;
+}
