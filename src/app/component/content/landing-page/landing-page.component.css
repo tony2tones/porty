@@ -3,3 +3,12 @@
     width: 100%;
     background-image: url("../../../../assets/landinglogo.png");
 }
+
+.copy > p {
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left: 17%;
+    font-size:27px;
+    margin-right: -50%;
+}

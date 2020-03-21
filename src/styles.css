@@ -8,9 +8,11 @@
 }
 
 h1,
+h2,
+h3,
 p,
 a {
-  color: white;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .card-body {
@@ -19,25 +21,6 @@ a {
   margin: 0 auto;
   width: 90%;
 }
-/* .content-container {
-  position: absolute;
-  left: -622px;
-  height: 40px;
-  background: transparent;
-  padding-bottom: 150px;
-  animation-name: drive;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes drive {
-  from {
-    transform: translateX(-622px);
-  }
-  to {
-    transform: translateX(1000px);
-  }
-} */
 
 a:hover {
   color: grey;
