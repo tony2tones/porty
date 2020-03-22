@@ -11,6 +11,7 @@ import { AboutMeComponent } from './component/content/about-me/about-me.componen
 import { ContactComponent } from './component/content/contact/contact.component';
 import { ParallaxDirective } from './parallax.directive';
 import { LandingPageComponent } from './component/content/landing-page/landing-page.component';
+import { TitleComponent } from './title/title.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent },
@@ -27,7 +28,8 @@ const appRoutes: Routes = [
     AboutMeComponent,
     ContactComponent,
     ParallaxDirective,
-    LandingPageComponent
+    LandingPageComponent,
+    TitleComponent
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(
     appRoutes
