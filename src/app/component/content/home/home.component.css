@@ -1,35 +1,52 @@
-
-@media only screen and (max-width: 768px) {
-  
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .panel {
-    background-color: white;
+    background-color: #ebf2ff;
     width: 100%;
-    height: 500px;
+    height: 150px;
   }
 
-  /* .col-sm{
-    padding-right:5px;
-  } */
+  .panel-tech {
+    background-color: #e3e9f3;;
+    width: 100%;
+    height: 200px;
+  }
+  .panel-stack{
+    background-color: #cbdbfc;
+    widows: 100%;
+    height:170px
+  }
 
   .title {
+    background-color: #e3e9f3;;
+    width: 100%;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
   }
 
-  .title > h3 {
-    font-family: 'Lato', sans-serif;
-  }
-  
-  .content-logo{
-    padding-left:22px;
+  .col-sm{
+    background-color: white;
+    height: auto;
+    padding-bottom:20px;
   }
 
-  .icon > a > img {
+  .about {
+    position: absolute;
+    padding-top:48px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .content-logo {
+    padding-left: 22px;
+  }
+
+  .icon img {
     align-items: center;
     text-align: center;
-    /* margin-top:10px; */
     padding-top: 45px;
-    width: 140px;
+    margin-left:14px;
+    width: 40px;
     height: auto;
   }
 }
@@ -47,7 +64,7 @@
   }
 
   .title > h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
   }
 
   .icon > a > img {
@@ -55,4 +72,3 @@
     height: auto;
   }
 }
-
