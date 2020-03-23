@@ -1,63 +1,10 @@
-h1,
-p {
-  color: white;
-}
 .title {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 20px;
-}
-.card-body {
-  padding-top: 30px;
-  text-align: center;
-  margin: 0 auto;
-  width: 90%;
-  padding-bottom: 20px;
+
 }
 
-.content-container {
-  /* text-align: center; */
-  position: absolute;
-  left: -922px;
-  height: 40px;
-  background: transparent;
-  padding-bottom: 150px;
-  animation-name: drive;
-  animation-duration: 3s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-}
-
-.picture {
-  width: 500px;
-  height: auto;
-  transform: scaleX(-1);
-}
-
-@keyframes drive {
-  from {
-    transform: translateX(-622px);
-  }
-  to {
-    transform: translateX(1200px);
-  }
-}
-
-.panel {
-  /* background-color: ivory; */
-  height: 350px;
-  width: 350px;
-}
-
-.icon > a > img{
-  text-align: center;
-  /* margin-top:10px; */
-  padding-top: 45px;
-  width: 90px;
-  height: auto;
-}
-
-.bg-link {
-  transform: scale(1.3);
-  padding-bottom: 42px;
+.title h3 {
+    color:white;
 }
