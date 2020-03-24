@@ -8,3 +8,23 @@
 .title h3 {
     color:white;
 }
+.panel-about{
+  background-color: white;
+  padding: 20px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: nowrap; */
+  background-color: white;
+  
+}
+
+.flex {
+  padding-left:10px;
+}
+
+.flex img{
+  height: 45px;
+  width: 45px;
+}
