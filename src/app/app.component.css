@@ -4,6 +4,10 @@ body {
   height: 100%;
 }
 
+.ttlogo {
+  border-radius: 0.5%;
+}
+
 .ttlogo img {
   position: fixed;
   z-index: 0;
