@@ -4,6 +4,10 @@
   padding-bottom: 20px;
 
 }
+.panel p{
+  padding: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
 
 .title h3 {
     color:white;
