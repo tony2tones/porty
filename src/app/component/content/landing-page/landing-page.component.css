@@ -1,7 +1,9 @@
 .landing {
-    height: 800px;
+    height: 100%;
     width: 100%;
-    background-image: url("../../../../assets/landinglogo.png");
+    background-color: #cbdbfc;
+    z-index: 2;
+    /* background-image: url("../../../../assets/landinglogo.png"); */
 }
 
 .copy > p {
@@ -11,4 +13,12 @@
     left: 17%;
     font-size:27px;
     margin-right: -50%;
+}
+
+img {
+    position: absolute;
+    bottom:2%;
+    right:6%;
+    height: 150px;
+    width: auto;
 }

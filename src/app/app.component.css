@@ -6,11 +6,11 @@ body {
 
 .ttlogo img {
   position: fixed;
-  z-index: 2;
-  bottom: 0px;
-  left: 67%;
-  width: 137px;
-  height: 126px;
+  z-index: 0;
+  bottom:2%;
+  right:6%;
+  height: 150px;
+  width: auto;
   opacity: 0.5;
 }
 
