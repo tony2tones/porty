@@ -57,3 +57,15 @@ body {
   background-color: yellow;
   border-radius: 50px;
 }
+
+.foo {
+  transition: transform 0.35s ease-out;
+}
+
+.foo.sn-viewport--out {
+  transform: translateY(-30px);
+}
+
+.foo.sn-viewport--in {
+  transform: translateY(0);
+}
