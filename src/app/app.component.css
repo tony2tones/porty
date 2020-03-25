@@ -10,12 +10,12 @@ body {
 
 .ttlogo img {
   position: fixed;
-  z-index: 0;
+  z-index: 1;
   bottom:2%;
   right:6%;
-  height: 150px;
+  height: 45px;
   width: auto;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 #content {
