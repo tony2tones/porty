@@ -6,10 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'porto';
-  
-  recieveMessage($event) {
-   
-    console.log("These goodies ", $event);
+  highlight = false;
+
+  onInViewportChange(inViewport: boolean) {
+    this.highlight = inViewport;
   }
 }

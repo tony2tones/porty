@@ -66,6 +66,7 @@ body {
   transform: translateY(-30px);
 }
 
-.foo.sn-viewport--in {
-  transform: translateY(0);
+.ttlogo.sn-viewport--in {
+  transform: translateX(-100px);
+  opacity: 0;
 }
