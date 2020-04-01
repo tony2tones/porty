@@ -28,7 +28,7 @@ body {
 }
 
 .back-ground {
-  background-image: url("../assets/background.png");
+  background-image: url("../assets/franchoekbgtexture.png");
   position: fixed;
   z-index: -1;
   top: 0px;
