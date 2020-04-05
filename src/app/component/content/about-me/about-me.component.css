@@ -11,6 +11,11 @@
 .title h3 {
   color: white;
 }
+
+.title-social {
+  padding-bottom: 15px;
+}
+
 .panel-about {
   background-color: white;
   padding: 20px;
@@ -18,7 +23,7 @@
 .flex-container {
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
   background-color: white;
 }
 
@@ -27,7 +32,7 @@
 }
 
 .flex img {
-  height: 65px;
+  height: 95px;
   width: auto;
 }
 
