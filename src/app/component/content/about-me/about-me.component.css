@@ -26,16 +26,31 @@
   flex-wrap: wrap;
   background-color: white;
 }
+@media only screen and (max-width: 1000px) {
+  .flex {
+    padding-left: 10px;
+  }
 
-.flex {
-  padding-left: 10px;
+  .flex img {
+    height: 170px;
+    width: auto;
+  }
+
+  .social {
+    text-align: center;
+  }
 }
+@media only screen and (max-width: 600px) {
+  .flex {
+    padding-left: 10px;
+  }
 
-.flex img {
-  height: 70px;
-  width: auto;
-}
+  .flex img {
+    height: 70px;
+    width: auto;
+  }
 
-.social {
-  text-align: center;
+  .social {
+    text-align: center;
+  }
 }
