@@ -2,33 +2,59 @@
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
-.panel p{
+.panel p {
   padding: 20px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .title h3 {
-    color:white;
+  color: white;
 }
-.panel-about{
+
+.title-social {
+  padding-bottom: 15px;
+}
+.title-bio {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.panel-about {
   background-color: white;
   padding: 20px;
 }
 .flex-container {
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
   background-color: white;
-  
 }
+@media only screen and (max-width: 1200px) {
+  .flex {
+    padding-left: 10px;
+  }
 
-.flex {
-  padding-left:10px;
+  .flex img {
+    height: 170px;
+    width: auto;
+  }
+
+  .social {
+    text-align: center;
+  }
 }
+@media only screen and (max-width: 800px) {
+  .flex {
+    padding-left: 10px;
+  }
 
-.flex img{
-  height: 45px;
-  width: 45px;
+  .flex img {
+    height: 70px;
+    width: auto;
+  }
+
+  .social {
+    text-align: center;
+  }
 }
