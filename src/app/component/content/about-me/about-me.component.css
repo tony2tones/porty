@@ -15,6 +15,10 @@
 .title-social {
   padding-bottom: 15px;
 }
+.title-bio {
+  padding-top: 15px;
+  text-align: center;
+}
 
 .panel-about {
   background-color: white;
