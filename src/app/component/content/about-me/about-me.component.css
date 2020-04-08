@@ -15,11 +15,19 @@
 .title-social {
   padding-bottom: 15px;
 }
+
 .title-bio {
   padding-top: 15px;
   text-align: center;
 }
-
+.panel-profile {
+  text-align: center;
+  padding-top: 10px;
+}
+.panel-profile  p {
+  padding: 20px;
+  font-family: "Roboto Mono", monospace;
+}
 .panel-about {
   background-color: white;
   padding: 20px;
